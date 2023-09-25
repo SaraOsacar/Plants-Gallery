@@ -7,11 +7,17 @@ h1 {
   text-align: center;
   font-family: helvetica;
   font-size: 30px;
+  color: rgb(66, 64, 64);
 }
 
 p {
   font-family: helvetica;
   font-size: 14px;
+  line-height: 1.7;
+  color: rgb(86, 84, 84);
+}
+.plantType, .plantCare {
+  color: rgb(47, 45, 45);
 }
 .container {
   max-width: 600px;
@@ -31,7 +37,7 @@ p {
 
   height: 200px;
 
-  background-image: url('https://plantify.mx/wp-content/uploads/2022/04/Monstera-Deliciosa-Cuidados.jpg');
+  background-image: url('https://img.freepik.com/vector-premium/hoja-monstera-palma-selva-tropical-ilustracion-dibujada-mano-realista-aislado-blanco_335478-780.jpg?w=2000');
 
   background-size: cover;
   animation: movePlant 15s linear infinite;

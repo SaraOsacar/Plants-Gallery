@@ -23,6 +23,7 @@ p {
     color: rgb(47, 45, 45);
 }
 
+
 .container {
     max-width: 600px;
 
@@ -42,7 +43,7 @@ p {
 
     height: 200px;
 
-    background-image: url('https://static.wixstatic.com/media/eced3c_e747333ed30248cd924b37583190f20c~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg');
+    background-image: url('https://elrincondelasflores.com/1487-large_default/ficus-elastica.jpg');
 
     background-size: cover;
     animation: movePlant 15s linear infinite;
@@ -70,6 +71,7 @@ p {
     cursor: pointer;
 
 }
+
 .titleContainer {
     display: flex;
     justify-content: center;

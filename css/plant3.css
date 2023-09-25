@@ -8,12 +8,20 @@ h1 {
     text-align: center;
     font-family: helvetica;
     font-size: 30px;
+    color: rgb(66, 64, 64);
 }
 
 p {
     font-family: helvetica;
     font-size: 14px;
+    line-height: 1.7;
+        color: rgb(86, 84, 84);
 }
+.plantType,
+.plantCare {
+    color: rgb(47, 45, 45);
+}
+
 
 .container {
     max-width: 600px;
@@ -34,7 +42,7 @@ p {
 
     height: 200px;
 
-    background-image: url('https://as1.ftcdn.net/v2/jpg/02/66/78/72/1000_F_266787296_aQ5Fq5NICQIiRWFIB3drbYlWsOngrQ0H.jpg');
+    background-image: url('https://media.istockphoto.com/id/178832686/es/foto/opuntia-cactus-aislado-sobre-fondo-blanco.jpg?s=170667a&w=0&k=20&c=GBD3O5UBySAvNtz0dgODCS5WzOgr4eI3TH8kozIK5Vo=');
 
     background-size: cover;
     animation: movePlant 15s linear infinite;
