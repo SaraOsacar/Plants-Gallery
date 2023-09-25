@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+}
+h1 {
+  text-align: center;
+  font-family: helvetica;
+  font-size: 30px;
+}
+
+p {
+  font-family: helvetica;
+  font-size: 14px;
+}
+.container {
+  max-width: 600px;
+
+  margin: 0 auto;
+
+  background-color: white;
+
+  padding: 20px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+}
+.plant-animation {
+  width: 200px;
+
+  height: 200px;
+
+  background-image: url('https://plantify.mx/wp-content/uploads/2022/04/Monstera-Deliciosa-Cuidados.jpg');
+
+  background-size: cover;
+  animation: movePlant 15s linear infinite;
+
+  margin: 0 auto;
+
+  margin-top: 90px;
+  border-radius: 50%;
+}
+
+@keyframes movePlant {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+#backButton {
+    width: 30px;
+    height: 30px;
+    margin: 40px;
+    cursor: pointer;
+   
+}
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+}
+.titleImage {
+  height: 50px;
+}
