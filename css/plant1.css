@@ -65,6 +65,10 @@ p {
     cursor: pointer;
    
 }
+#backButton:hover {
+  transform: translateX(-5px);
+
+}
 .titleContainer {
   display: flex;
   justify-content: center;
